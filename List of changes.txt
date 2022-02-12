@@ -1,0 +1,34 @@
+New lines of code are marked with "NEW" comments. 
+
+List of changes: 
+---
+V.1
+1) Header. 
+The "About me" button was added, 
+the bootstrap modal window was configured 
+and adaptability was corrected. 
+
+2) The first block. 
+The text has been changed. 
+Canvas orb added. 
+The adaptability of the block has been redesigned. 
+
+3) Slider. 
+The slider has been copied. 
+
+4) The "About me" page. 
+Blocks have been moved to this page
+---
+V.2
+1) Header
+Modified the image change when scrolling
+
+2) The first block
+-Hid (commented out) the background image and added a background color that changes along with the title and canvas
+-Replaced the photo and corrected the adaptability
+
+3) Slider
+-Replaced photos
+-Fixed a bunch of minor nuances: button color, text centering, and so on
+
+4) Cleaned the image folder from unnecessary, unused images + compressed all png files, without loss of quality

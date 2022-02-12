@@ -1,0 +1,326 @@
+@media (max-width: 1199px) {
+	.about-right h1 {
+		font-size: 52px;
+	}
+	.about-right h5 {
+		font-size: 22px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner label {
+		font-size: 28px;
+	}
+}
+@media (max-width: 1024px) {
+	.about-right h1 {
+		font-size: 48px;
+	}
+	.about-right h5 {
+		font-size: 21px;
+	}
+	.about-right ul {
+		margin-top: 20px;
+	}
+	.banner-text h1 {
+		font-size: 52px;
+	}
+	.banner-text h5,
+	.banner-text p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.banner-icon .banner-icon-circle img {
+		margin-top: 20px;
+		height: 70px;
+		width: 70px;
+	}
+	.banner-icon .banner-icon-circle.banner-img1 {
+		left: 20px;
+		top: 40px;
+	}
+	.banner-icon .banner-icon-circle.banner-img2 {
+		left: 110px;
+		top: 10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img4 {
+		top: 135px;
+		left: 40px;
+	}
+	.banner-icon .banner-icon-circle.banner-img5 {
+		top: 115px;
+		left: 120px;
+	}
+	.banner-icon .banner-icon-circle.banner-img3 {
+		top: 55px;
+		left: 200px;
+	}
+	.banner-icon .banner-icon-circle.banner-img7 {
+		top: 220px;
+		left: 10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img6 {
+		top: 205px;
+		left: 105px;
+	}
+	.banner-icon .banner-icon-circle.banner-img8 {
+		top: 160px;
+		left: 230px;
+	}
+	.banner-icon .banner-icon-circle.banner-img9 {
+		top: 230px;
+		left: 190px;
+	}
+}
+
+@media (max-width: 767px) {
+	.banner {
+		padding-bottom: 0;
+	}
+	.banner-text {
+		padding: 0;
+	}
+	.desktop-hide {
+		display: block;
+	}
+	.about .col-md-4 img,
+	.about-right h1,
+	.about-right h5 {
+		display: none;
+	}
+	.about .row {
+		padding-top: 20px;
+	}
+	.banner-text h5,
+	.banner-text p {
+		font-size: 16px;
+	}
+	.banner-text h1 {
+		font-size: 48px;
+	}
+	.banner-icon {
+		margin-top: 30px;
+	}
+	.banner {
+		background-repeat: repeat-y;
+		background-size: cover;
+	}
+	.header {
+		flex-wrap: nowrap;
+	}
+
+	.header-right ul {
+		justify-content: center;
+	}
+	.header-right ul li a {
+		font-size: 14px;
+	}
+
+	.header-right ul li:last-child a {
+		padding: 5px;
+		min-width: 100px;
+	}
+
+	.header-right ul li {
+		padding: 10px 7px;
+	}
+	.about-right ul li a {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	.about-right ul li {
+		margin: 0 5px;
+	}
+	.about .row {
+		margin: 100px 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.banner-btn a {
+		display: table;
+		margin-bottom: 15px;
+		font-size: 15px;
+		min-width: 150px;
+	}
+	.banner-name {
+		padding-left: 20px;
+	}
+	.banner-name {
+		font-size: 14px;
+	}
+}
+@media (max-width: 450px) {
+	.mobile-about .mobile-left {
+		width: 30%;
+	}
+	.mobile-about .mobile-right {
+		width: 70%;
+	}
+	.skills .skills-content .media {
+		display: block;
+	}
+	.skills .skills-content .media img {
+		margin-bottom: 10px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner {
+		display: block;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner label {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner .progress {
+		width: 100%;
+	}
+
+	.br {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 480px) {
+	.banner-icon .banner-icon-circle img {
+		height: auto;
+		width: auto;
+		margin-top: 0px;
+	}
+	.banner-icon .banner-icon-circle.banner-img1 {
+		left: 20px;
+		top: 40px;
+	}
+	.banner-icon .banner-icon-circle.banner-img2 {
+		left: 95px;
+		top: 10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img4 {
+		top: 115px;
+		left: 10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img5 {
+		top: 85px;
+		left: 80px;
+	}
+	.banner-icon .banner-icon-circle.banner-img3 {
+		top: 55px;
+		left: 150px;
+	}
+	.banner-icon .banner-icon-circle.banner-img7 {
+		top: 180px;
+		left: 10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img6 {
+		top: 155px;
+		left: 85px;
+	}
+	.banner-icon .banner-icon-circle.banner-img8 {
+		top: 250px;
+		left: -10px;
+	}
+	.banner-icon .banner-icon-circle.banner-img9 {
+		top: 230px;
+		left: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	.skills .skills-content {
+		margin: 0;
+	}
+	.skills .skills-content .title {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.skills .skills-content .education .media img {
+		max-width: 50px;
+	}
+	.skills .skills-content .media img {
+		margin-right: 15px;
+	}
+	.skills .skills-content {
+		padding: 15px;
+	}
+	.skills .skills-content .media .media-body h5 {
+		font-size: 18px;
+	}
+	.skills .skills-content .media .media-body p {
+		font-size: 16px;
+	}
+	.skills .skills-content .media {
+		margin-bottom: 30px;
+	}
+	.skills .skills-content-inner::-webkit-scrollbar-track {
+		border-radius: 100px;
+		background-color: #686868;
+	}
+
+	.skills .skills-content-inner::-webkit-scrollbar {
+		width: 15px;
+		background-color: #686868;
+		border-radius: 100px;
+	}
+
+	.skills .skills-content-inner::-webkit-scrollbar-thumb {
+		border-radius: 100px;
+		background-color: #373737;
+		border: 3px solid transparent;
+		background-clip: content-box;
+	}
+
+	.skills .skills-content .experiences .media img {
+		max-width: 100px;
+	}
+	.skills .skills-content .skill-inner .skills-media h3 {
+		font-size: 20px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner label {
+		font-size: 16px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner .progress {
+		height: 15px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress .skill-progress-inner {
+		margin-bottom: 20px;
+	}
+	.skills .skills-content .skill-inner .skills-media .skill-progress {
+		margin-left: 0;
+	}
+	.skills .skills-content .skill-inner .skills-media h3 {
+		margin-bottom: 20px;
+	}
+	.skills .skills-content .apps .apps-inner {
+		padding: 15px;
+	}
+	.skills .skills-content .apps .apps-inner img {
+		max-width: 150px;
+	}
+	.skills .skills-content .apps .apps-inner p {
+		font-size: 16px;
+		margin-left: 0;
+		line-height: 24px;
+	}
+	.skills .skills-content .project .project-inner h3 {
+		font-size: 18px;
+		width: 150px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.skills .testimonials .testimonials-inner {
+		padding: 15px;
+	}
+	.skills .testimonials .testimonials-inner p {
+		font-size: 16px;
+	}
+	.skills .skills-list h2 {
+		font-size: 20px;
+	}
+	.skills-list img {
+		max-width: 16px;
+	}
+	.skills .skills-list p {
+		font-size: 16px;
+	}
+	.skills .skills-list a {
+		font-size: 16px;
+	}
+}
