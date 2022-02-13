@@ -31,25 +31,25 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-					<form>
+					<form id="form" action="" method="post">
 						<div class="mb-3">
 							<label for="recipient-name" class="col-form-label">Name:</label>
-							<input type="text" class="form-control" id="recipient-name" required>
+							<input type="text" class="form-control" id="recipient-name" name="name" required>
 						</div>
 						<div class="mb-3">
 							<label for="recipient-name" class="col-form-label">Phone:</label>
-							<input type="tel" class="form-control" id="recipient-name" required>
+							<input type="tel" class="form-control" id="recipient-name" name="phone" required>
 						</div>
 						<div class="mb-3">
 							<label for="recipient-name" class="col-form-label">Email:</label>
-							<input type="email" class="form-control" id="recipient-name" required>
+							<input type="email" class="form-control" id="recipient-name" name="email" required>
 						</div>
 						<div class="mb-3">
 							<label for="message-text" class="col-form-label">Message:</label>
-							<textarea class="form-control" id="message-text"></textarea>
+							<textarea class="form-control" id="message-text" name="message"></textarea>
 						</div>
 						<div class="modal-footer">
-							<button type="submit" class="btn btn-primary form-btn">Send message</button>
+							<button id="submit" type="submit"  class="btn btn-primary form-btn" name="submit">Send message</button>
 						</div>
 					</form>
 				</div>

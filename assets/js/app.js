@@ -54,11 +54,11 @@ swiper.on('slideChange', function () {
 });
 
 // GET REQUEST FOR ALL LIKES
-axios.get('https://faizywebsite.herokuapp.com/post')
+axios.get('https://faizyserver.herokuapp.com/post')
 		.then(({data}) => {
             data.forEach(post => {
 				let htmlPost  = $("span#"+ post.postId +".likes")
-				htmlPost.text(post.likes)
+				if(htmlPost) htmlPost.text(post.likes)
 			});
 		});
 
@@ -70,7 +70,7 @@ $(".js-fav").on("click", function () {
 	//CHECK IF POST IS LIKED OR NOT
 	if($(this).find('.heart').is('.is-active')) {
          //ADD LIKE TO A POST
-			axios.put('https://faizywebsite.herokuapp.com/post/subtractlike', { postId: id})
+			axios.put('https://faizyserver.herokuapp.com/post/subtractlike', { postId: id})
 			.then(({data}) => {
 				$(this).find('.likes').text(data.likes)
 				$(this).find('.heart').toggleClass("is-active");
@@ -78,7 +78,7 @@ $(".js-fav").on("click", function () {
 			});
 	} else {
 		//SUBTRACT LIKE FROM A POST
-			axios.put('https://faizywebsite.herokuapp.com/post/addlike', { postId: id})
+			axios.put('https://faizyserver.herokuapp.com/post/addlike', { postId: id})
 			.then(({data}) => {
 				$(this).find('.likes').text(data.likes)
 				$(this).find('.heart').toggleClass("is-active");
@@ -87,3 +87,17 @@ $(".js-fav").on("click", function () {
 	}
 	
 });
+
+//MANAGE FORM
+$(document).ready(function(){
+	    $('#form').submit(function() {
+			let data = $("#form").serializeArray()
+            
+			axios.post('https://faizyserver.herokuapp.com/sendEmail', {name: data[0].value, phone: data[1].value, email: data[2].value, message: data[3].value})
+			.then(({data}) => {
+	           console.log(data)
+			});
+            alert("Email is sent")
+			return true
+		})
+})
